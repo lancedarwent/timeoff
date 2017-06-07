@@ -1,0 +1,14 @@
+Time Off Tampa!
+
+- Date picker style calendar
+
+
+Functionality
+- Login
+- Automated email through the approval process
+- Permissions / Roles
+- Multiple time off categories (with the increments that are allowed per category)
+- Keep track of carry-over hours (and when they expire)
+- Takes holidays / closed days into account
+- Basic reporting (my time off / group of users time off [Admin only])
+- Handle sick days differently (maybe send an email to timeofftampa@proforma.com which will automatically notify the "admin")
