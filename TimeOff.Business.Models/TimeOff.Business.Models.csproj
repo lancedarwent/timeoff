@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9BC823C-486F-4D38-9387-7D6E5A34132B}</ProjectGuid>
+    <ProjectGuid>{584BA148-73F6-439A-8CC9-51EA1BC1F088}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TimeOff.Business</RootNamespace>
-    <AssemblyName>TimeOff.Business</AssemblyName>
+    <RootNamespace>TimeOff.Business.Models</RootNamespace>
+    <AssemblyName>TimeOff.Business.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

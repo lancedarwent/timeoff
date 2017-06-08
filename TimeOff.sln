@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.TestApp", "TimeOff.TestApp\TimeOff.TestApp.csproj", "{B21FA661-AC81-4892-ACA4-A3E847010FFF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{69CB37BC-8DD9-4B17-A3D8-0D905AA4F7F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C9DA447D-C4B5-4F10-B4F1-37067344EAB9}"
@@ -19,16 +17,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.WebApi", "TimeOff.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Business", "TimeOff.Business\TimeOff.Business.csproj", "{F9BC823C-486F-4D38-9387-7D6E5A34132B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Business.Models", "TimeOff.Business.Models\TimeOff.Business.Models.csproj", "{584BA148-73F6-439A-8CC9-51EA1BC1F088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Data.Models", "TimeOff.Data.Models\TimeOff.Data.Models.csproj", "{3124D34D-8C35-4E88-9C09-89B9949C308F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Presentation.ConsoleApp", "TimeOff.Presentation.ConsoleApp\TimeOff.Presentation.ConsoleApp.csproj", "{B21FA661-AC81-4892-ACA4-A3E847010FFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6509E00F-D970-4638-BB21-5B595B53B7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6509E00F-D970-4638-BB21-5B595B53B7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6509E00F-D970-4638-BB21-5B595B53B7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,13 +37,27 @@ Global
 		{F9BC823C-486F-4D38-9387-7D6E5A34132B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9BC823C-486F-4D38-9387-7D6E5A34132B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9BC823C-486F-4D38-9387-7D6E5A34132B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584BA148-73F6-439A-8CC9-51EA1BC1F088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584BA148-73F6-439A-8CC9-51EA1BC1F088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584BA148-73F6-439A-8CC9-51EA1BC1F088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584BA148-73F6-439A-8CC9-51EA1BC1F088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3124D34D-8C35-4E88-9C09-89B9949C308F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3124D34D-8C35-4E88-9C09-89B9949C308F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3124D34D-8C35-4E88-9C09-89B9949C308F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3124D34D-8C35-4E88-9C09-89B9949C308F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B21FA661-AC81-4892-ACA4-A3E847010FFF} = {EADDEC79-8118-455E-965C-A1E1E6D6D821}
 		{6509E00F-D970-4638-BB21-5B595B53B7F2} = {F0165FEC-D01E-4556-83E1-12EDEBE7B46B}
 		{F9BC823C-486F-4D38-9387-7D6E5A34132B} = {69CB37BC-8DD9-4B17-A3D8-0D905AA4F7F6}
+		{584BA148-73F6-439A-8CC9-51EA1BC1F088} = {69CB37BC-8DD9-4B17-A3D8-0D905AA4F7F6}
+		{3124D34D-8C35-4E88-9C09-89B9949C308F} = {C9DA447D-C4B5-4F10-B4F1-37067344EAB9}
+		{B21FA661-AC81-4892-ACA4-A3E847010FFF} = {EADDEC79-8118-455E-965C-A1E1E6D6D821}
 	EndGlobalSection
 EndGlobal

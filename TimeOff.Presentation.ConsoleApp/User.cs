@@ -1,4 +1,4 @@
-﻿namespace TimeOff.TestApp
+﻿namespace TimeOff.Presentation.ConsoleApp
 {
 	public enum RemunerationType
 	{
