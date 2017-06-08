@@ -8,10 +8,10 @@
 
 			Supervisor sup1 = new Supervisor("Beth", "pass123");			
 
-			Approve(new Boss(), emp1);
+			Approve(new Manager(), emp1);
 		}
 
-		public static void Approve(IAdmin adminUser, Employee employee)
+		public static void Approve(IApprover adminUser, Employee employee)
 		{
 			adminUser.ApproveTimeOffRequest(employee, 3);
 		}

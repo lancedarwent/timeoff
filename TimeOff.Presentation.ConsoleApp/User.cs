@@ -8,7 +8,7 @@
 		NonPaid = 3
 	}
 
-	public interface IAdmin
+	public interface IApprover
 	{
 		void ApproveTimeOffRequest(User user, int hours);
 	}
@@ -60,14 +60,6 @@
 		}
 	}
 
-	public class Boss : IAdmin
-	{
-		public void ApproveTimeOffRequest(User user, int hours)
-		{
-			//TODO:
-		}
-	}
-
 	public class Supervisor : User
 	{
 		public Supervisor(string userName, string password)
@@ -75,9 +67,14 @@
 		{
 
 		}
-
-		
 	}
 
+	public class Manager : IApprover
+	{
+		public void ApproveTimeOffRequest(User user, int hours)
+		{
+			//TODO:
+		}
+	}
 
 }
