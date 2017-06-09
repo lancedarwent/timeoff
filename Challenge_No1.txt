@@ -1,0 +1,19 @@
+
+Challenge:		1
+Topics:			Inheritance, Interfaces, Generics
+Release Date:	06/09/2017
+Review Date:	06/15/2017
+
+Make use of classes and interfaces in conjunction with inheritance and generic types to achieve the below objective. 
+TIP: We have not yet covered generic interfaces, but they could be useful for this challenge: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-interfaces
+
+Create classes, interfaces, and any other types that would allow supervisors and managers to approve a time off request with the following rules in mind:
+	1. Managers and Supervisors cannot approve time off for themselves or their peers, EG: Supervisors cannot approve requests from other supervisors, managers, or themselves. They can only approve their subordinates' requests. Likewise with Managers
+	2. Classes must not have any constructors defined.
+	3. Managers and Supervisors should both have only 1 or more method(s) called Approve that return void (there is no restriction on parameters). No other methods are allowed.
+	4. The TimeOffRequest is not required to have any implementation and there are no restrictions on the design. EG: Having a simple TimeOffRequest interface without any properties or methods is acceptable, and no concrete implementation is required.
+	5. The Approve method body must only throw a NotImplementedException, and not have any other code.
+	6. All restrictions must be compile-time checked, IE: 
+			- Must compile if an instance of a manager calls the Approve method for a request from a supervisor, employee, or intern, but it must not compile if an instance of a manager calls the Approve method for a request from a manager
+			- Must compile if an instance of a supervisor calls the Approve method for a request from an employee or intern, but it must not compile if an instance of a supervisor calls the Approve method for a manager or a supervisor
+	7. All code files must be in the TimeOff.Business.Models project and must include "Challenge1" as part of the namespace so that the definitions do not clash with the definitions created in through the TODO.

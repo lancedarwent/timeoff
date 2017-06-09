@@ -1,0 +1,6 @@
+
+* TODOs should be done on a new branch that is based off of the Master branch
+	- Naming convention for TODO branches is todo-[todo number]-[firstinitial][lastname]. EG: todo-1-ldarwent, todo-2-ldarwent
+* Challenges should be done on a new branch that is based off of the Challenges branch
+	- Naming convention for Challenge branches is challenge-[challenge number]-[firstinitial][lastname]. EG: challenge-1-ldarwent, challenge-2-ldarwent
+	- Challenges can be submitted multiple times, each new submission should be done on a new branch with the same naming convention, but appended with "-" and an incrementing number starting at 2. EG: challenge-1-ldarwent-2, challenge-1-ldarwent-3

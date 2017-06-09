@@ -1,0 +1,17 @@
+
+Release Date:	06/09/2017
+Review Date:	06/15/2017
+
+Objectives:
+1. Review the BusinessRules (..\General\BusinessRules.txt) - Ignore the level of influence that one User may have on another. Ignore the fact that a Users decision can be overruled by a User with a higher organization level
+2. Review the GlobalPrinciples (..\General\GlobalPrinciples.txt)
+3. Create all the necessary code in the TimeOff.Business and TimeOff.Business.Models projects. TimeOff.Business is used for business logic, TimeOff.Business.Models is used for business models
+4. Keep all of the global principles in mind
+5. Empty signature methods are acceptable, working implementations are preferred
+6. Complete as many TODOs as possible, but don't ignore any principles to do so (Quality > Quantity)
+
+TODO #1: Create any code necessary to allow for varying, non-hard coded User types and organizational levels
+TODO #2: Create any code necessary to allow any type of User to submit any type of Time Off Request to the User that they directly report to
+TODO #3: Create any code necessary to allow any type of User to submit a cancellation of any type of Time Off Request that was previously submitted to the User that they directly report to
+TODO #3: Create any code necessary to allow Team Lead, Management and Upper-Management Users to approve any type of Time Off Request submitted by a subordinate User
+TODO #4: Create any code necessary to allow Team Lead, Management and Upper-Management Users to deny any type of Time Off Request submitted by a subordinate User

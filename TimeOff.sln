@@ -26,8 +26,22 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Core", "TimeOff.Core\TimeOff.Core.csproj", "{98C22521-7DE9-4A21-9EEA-845063E4C358}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA2CCF0C-08A2-4EC2-93C7-DE5581CBF543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenges", "Challenges", "{8314356F-6942-4D18-84E3-4A43E5BCD48C}"
 	ProjectSection(SolutionItems) = preProject
-		TODO_Challenge_No1.txt = TODO_Challenge_No1.txt
+		Challenge_No1.txt = Challenge_No1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TODOs", "TODOs", "{9522420B-34B0-49A8-8144-99FA61DAF84B}"
+	ProjectSection(SolutionItems) = preProject
+		TODOs_20170609.txt = TODOs_20170609.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{98F3BDFC-EFE0-4112-862C-7FA6B063BED7}"
+	ProjectSection(SolutionItems) = preProject
+		BusinessRules.txt = BusinessRules.txt
+		GlobalPrinciples.txt = GlobalPrinciples.txt
+		ProjectGuidelines.txt = ProjectGuidelines.txt
 	EndProjectSection
 EndProject
 Global
@@ -71,5 +85,8 @@ Global
 		{3124D34D-8C35-4E88-9C09-89B9949C308F} = {C9DA447D-C4B5-4F10-B4F1-37067344EAB9}
 		{B21FA661-AC81-4892-ACA4-A3E847010FFF} = {EADDEC79-8118-455E-965C-A1E1E6D6D821}
 		{98C22521-7DE9-4A21-9EEA-845063E4C358} = {67F20A2E-5438-4C44-9644-55AD4064CEC4}
+		{8314356F-6942-4D18-84E3-4A43E5BCD48C} = {CA2CCF0C-08A2-4EC2-93C7-DE5581CBF543}
+		{9522420B-34B0-49A8-8144-99FA61DAF84B} = {CA2CCF0C-08A2-4EC2-93C7-DE5581CBF543}
+		{98F3BDFC-EFE0-4112-862C-7FA6B063BED7} = {CA2CCF0C-08A2-4EC2-93C7-DE5581CBF543}
 	EndGlobalSection
 EndGlobal

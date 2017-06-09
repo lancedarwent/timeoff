@@ -286,3 +286,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# Since this is a public repository, we don't want to include the business rules.
+/BusinessRules.txt

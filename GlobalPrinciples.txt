@@ -1,0 +1,9 @@
+
+* Strive to have a well organized, self-describing, clean code base
+* Strive to have all code files organized by their area of responsibility, EG: Code files that are related only to "user types" could be in a folder called "Users" and the namespaces could include the term "Users"
+* Strive to use consistent and descriptive naming conventions
+* Strive to only use comments where absolutely necessary. If another developer is brought into the project, they should be able to understand what the code is doing without the use of comments, but if there is a situation that doesn't allow the code to document itself, or if part of the problem/solution is out of context, then explain to the reader/developer in a short concise comment why a particular block of code is doing what it is doing. The comment should be as short as possible, but have all required details to allow a new developer to understand it
+* Strive to make all of the code as DRY (Don't Repeat Yourself) as possible
+* Strive not to make the code overly complex just for the sake of using a particular design pattern or feature (interfaces, generics, overloads, etc.). These are a means to an end, not the goal
+* Challenge yourself to write clean, maintainable and extensible code. The use of generics and interfaces helps with this, but only if they are well thought out in the beginning, if not, then they could become detrimental to the project but forcing you to use them in unintended ways just to adhere to the initial design
+* Strive to reduce troubleshooting complexities when you come across them. Redundant or unnecessary code, as well as commented-out (without a valid reason why) code causes anyone looking at the code to have to question the reason why it exists
