@@ -23,6 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Data.Models", "Time
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Presentation.ConsoleApp", "TimeOff.Presentation.ConsoleApp\TimeOff.Presentation.ConsoleApp.csproj", "{B21FA661-AC81-4892-ACA4-A3E847010FFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOff.Core", "TimeOff.Core\TimeOff.Core.csproj", "{98C22521-7DE9-4A21-9EEA-845063E4C358}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA2CCF0C-08A2-4EC2-93C7-DE5581CBF543}"
+	ProjectSection(SolutionItems) = preProject
+		TODO_Challenge_No1.txt = TODO_Challenge_No1.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +56,10 @@ Global
 		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B21FA661-AC81-4892-ACA4-A3E847010FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C22521-7DE9-4A21-9EEA-845063E4C358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C22521-7DE9-4A21-9EEA-845063E4C358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C22521-7DE9-4A21-9EEA-845063E4C358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C22521-7DE9-4A21-9EEA-845063E4C358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +70,6 @@ Global
 		{584BA148-73F6-439A-8CC9-51EA1BC1F088} = {69CB37BC-8DD9-4B17-A3D8-0D905AA4F7F6}
 		{3124D34D-8C35-4E88-9C09-89B9949C308F} = {C9DA447D-C4B5-4F10-B4F1-37067344EAB9}
 		{B21FA661-AC81-4892-ACA4-A3E847010FFF} = {EADDEC79-8118-455E-965C-A1E1E6D6D821}
+		{98C22521-7DE9-4A21-9EEA-845063E4C358} = {67F20A2E-5438-4C44-9644-55AD4064CEC4}
 	EndGlobalSection
 EndGlobal

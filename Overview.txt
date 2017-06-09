@@ -1,4 +1,4 @@
-Time Off Tampa!
+TimeOff
 
 - Date picker style calendar
 
@@ -12,3 +12,7 @@ Functionality
 - Takes holidays / closed days into account
 - Basic reporting (my time off / group of users time off [Admin only])
 - Handle sick days differently (maybe send an email to timeofftampa@proforma.com which will automatically notify the "admin")
+
+
+Thursdays - TODO Review and New TODO Assignment
+Tuesdays - Topic discussions

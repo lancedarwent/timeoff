@@ -67,10 +67,37 @@
 		{
 
 		}
+
+		public void DoReview<TEmployee>(TEmployee userToReview)
+			where TEmployee : User
+		{
+			//TODO:
+		}
 	}
 
-	public class Manager : IApprover
+	public class SupervisorV2 : Supervisor
 	{
+		public SupervisorV2(string userName, string password) 
+			: base(userName, password)
+		{
+
+		}
+
+		public void Terminate<TUser>(TUser user)
+			where TUser : Employee
+		{
+			//TODO
+		}
+	}
+
+	public class Manager : User, IApprover
+	{
+		public Manager(string userName, string password)
+			:base(userName, password)
+		{
+
+		}
+
 		public void ApproveTimeOffRequest(User user, int hours)
 		{
 			//TODO:

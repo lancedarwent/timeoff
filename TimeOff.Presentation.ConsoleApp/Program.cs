@@ -1,14 +1,29 @@
-﻿namespace TimeOff.Presentation.ConsoleApp
+﻿using System;
+
+namespace TimeOff.Presentation.ConsoleApp
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			Employee emp1 = new Employee("BOB!", "Password123");
+			Employee brett = new Employee("bmacy@tot.com", "password123");
 
-			Supervisor sup1 = new Supervisor("Beth", "pass123");			
+			TimeSpan ts;
+			if (TimeSpan.TryParseExact("4:30", "HH:mm", null, out ts))
+			{
+				Console.WriteLine(ts);
+				//success
+			}
+			else
+			{
+				Console.WriteLine("failed");
+				//fail
+			}
 
-			Approve(new Manager(), emp1);
+			//PTORequest request = new PTORequest(brett)
+
+			Console.ReadLine();
+
 		}
 
 		public static void Approve(IApprover adminUser, Employee employee)

@@ -1,0 +1,17 @@
+
+Challenge:		1
+Topics:			Inheritance, Interfaces, Generics
+Review Date:	06/15/2017
+
+Using classes and interfaces in conjunction with inheritance and generic types:
+
+Create classes, interfaces, and any other types that would allow supervisors and managers to approve a time off request with the following rules in mind:
+	1. Managers/Supervisors cannot approve time off for themselves or colleagues at the same level, EG: Supervisors cannot approve requests from other supervisors, managers, or themselves. 
+		  They can only approve their subordinates' requests. Likewise with Managers
+	2. Classes must not have any constructors defined.
+	3. Managers and Supervisors must both have only 1 or more method(s) called Approve that return void (there is no restriction on parameters). No other methods are allowed.
+	4. The Approve method body must only throw a NotImplementedException, and not have any other code.
+	5. All restrictions must be compile-time checked, IE: 
+			- Must compile if an instance of a manager has the Approve method called for request from a supervisor, employee, or intern, but it must not compile if an instance of a manager calls the Approve method for a request from a manager
+			- Must compile if an instance of a supervisor has the Approve method called for a request from an employee or intern, but it must not compile if an instance of a supervisor calls the Approve method for a manager or a supervisor
+	6. All code files must be in the TimeOff.Business.Models project

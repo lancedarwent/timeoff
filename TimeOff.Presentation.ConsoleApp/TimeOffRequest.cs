@@ -36,14 +36,66 @@ namespace TimeOff.Presentation.ConsoleApp
 
 	public abstract class TimeOffRequest
 	{
-		TimeOffType RequestType { get; }
+		public TimeOffType RequestType { get; set; }
 
-		RequestStatusType Status { get; }
+		public int NumberOfHours { get; protected set; }
 
-		User Requestor { get; set; }
+		public TimeOffIncrements Increments { get; set; }
 
-		DateTime RequestDate { get; set; }
+		public RequestStatusType Status { get; protected set; }
 
-		DateTime? DecisionDate { get; set; }
+		public User Requestor { get; set; }
+
+		public DateTime RequestDate { get; set; }
+
+		public DateTime? DecisionDate { get; set; }
 	}
+
+	public class PTORequest
+		: TimeOffRequest
+	{
+		public DateTime StartDate { get; set; }
+		public DateTime EndDate { get; set; }
+		
+		public PTORequest(User requestor, DateTime startDate, DateTime endDate)
+		{
+			base.RequestType = TimeOffType.PTO;
+			base.Increments = TimeOffIncrements.QuarterHour;
+			base.Requestor = requestor;
+
+			this.StartDate = startDate;
+			this.EndDate = endDate;
+
+			base.NumberOfHours = (startDate - endDate).Hours;
+
+			base.Status = RequestStatusType.Submitted;
+		}
+
+		public PTORequest(User requestor, DateTime[,] dateRanges)
+		{
+
+		}
+	}
+
+	public class VacationRequest
+		: TimeOffRequest
+	{
+
+	}
+
+	public class FloatingHoliday
+		: TimeOffRequest
+	{
+
+	}
+
+	public class UnpaidRequest
+		: TimeOffRequest
+	{
+
+	}
+
+
+
+
 }
